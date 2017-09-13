@@ -19,7 +19,7 @@ class Transcriptor {
     * Ternary conditional: if argument contains any letter outside of the valid dna inputs,
     * throw an error. Else run map function and return rna compliments
     */
-    return dna.match(/[^GCTA]/g) != null ? _throwError() : dna.split('').map(function (e, i) {
+    return dna.match(/[^GCTA]/g) != null ? _throwError() : [...dna].map(function (e, i) {
       return dnaComplements[e];
     }).join('');
 
