@@ -1,5 +1,6 @@
-# exercism-io
-![exercism-logo](http://exercism.io/icons/logo.svg | width=48)
+# exercism-io  <img src="https://avatars2.githubusercontent.com/u/5624255?s=400&v=4" style="background-color:transparent" width="48">
+
+![exercism-logo](http://exercism.io/icons/logo.svg
 
 My solutions for the ECMAScript coding challenges from [exercism.io](http://exercism.io/languages/ecmascript/about). 
 
@@ -11,7 +12,7 @@ To run my solutions:
 
 ```npm i```
 
-and ```npm t``` run the tests
+and ```npm t``` to run the tests
 
 # Feedback
 
